@@ -128,7 +128,10 @@ border-bottom: 1px solid #E7E9FC;
 .section-one {
     padding: 188px 0;
     width: 100%;
+    max-width: 1440px;
+    border: 1px solid #8e8f99
     margin:0;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
@@ -207,6 +210,7 @@ border-bottom: 1px solid #E7E9FC;
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    border: 1px solid #8e8f99;
 }
 
 .header-info {
@@ -257,8 +261,9 @@ border-bottom: 1px solid #E7E9FC;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08)
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08)
+    
 }
 
 .team-link {
