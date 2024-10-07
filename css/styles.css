@@ -407,6 +407,9 @@ border-bottom: 1px solid #E7E9FC;
 .end-info {
     background-color: #2e2f42;
     padding: 100px 0;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
 }
 .footer-container {
     display: flex;
@@ -442,7 +445,6 @@ border-bottom: 1px solid #E7E9FC;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin: 0;
 }
 
 .span-logo-white {
